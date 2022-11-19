@@ -9,7 +9,7 @@ spec:
       restartPolicy: Never
       containers:
       - name: migration
-        image: busybox:1.33
+        image: busybox:1.34
         command:
           - sh
           - -c
